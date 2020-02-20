@@ -1,2 +1,4 @@
-User-agent: *
-Crawl-delay: 10
+User-Agent: *
+Disallow: /form.php#
+Host: gv-kuhni.com.ua
+Sitemap: http://gv-kuhni.com.ua/sitemap.xml

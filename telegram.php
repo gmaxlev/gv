@@ -1,7 +1,6 @@
 <?php
-
 /* https://api.telegram.org/bot750205650:AAGUT_-u8upxedTh0lwznEfr_W7aL9tg6_o/getUpdates,
-где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
+ где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
 
 $name = $_POST['name'];
 $phone = $_POST['phone'];
@@ -17,23 +16,23 @@ $answer6 = $_POST['answer6'];
 $token = "677282512:AAG3vD2e4CfhzPLXtWNTfTzQGZ4AwsQ0gcg";
 $chat_id = "-344646003";
 $arr = array(
-'Ім’я:' => $name,
-'Телефон:' => $phone,
-'Форма:' => $answer1,
-'Довжина:' => $answer2_1,
-'Ширина справа:' => $answer2_2,
-'Ширина зліва:' => $answer2_4,
-'Фасади:' => $answer3,
-'Стільниця:' => $answer4,
-'Фурнітура:' => $answer5,
-'Подарунок:' => $answer6
+    'Ім’я:' => $name,
+    'Телефон:' => $phone,
+    'Форма:' => $answer1,
+    'Довжина:' => $answer2_1,
+    'Ширина справа:' => $answer2_2,
+    'Ширина зліва:' => $answer2_4,
+    'Фасади:' => $answer3,
+    'Стільниця:' => $answer4,
+    'Фурнітура:' => $answer5,
+    'Подарунок:' => $answer6
 );
 
-foreach($arr as $key => $value) {
-  $txt .= "<b>".$key."</b> ".$value."%0A";
+foreach ($arr as $key => $value)
+{
+    $txt .= "<b>" . $key . "</b> " . $value . "%0A";
 };
 
-$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
-
+$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}", "r");
 
 ?>
