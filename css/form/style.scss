@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Play|Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?display=swap&family=Play|Roboto:300,400,500,700&subset=cyrillic');
 @import 'responce_mixin';
 
 @font-face {
@@ -9,6 +9,7 @@
     url('../fonts/FuturaPT-Light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -19,6 +20,7 @@
     url('../fonts/FuturaPT-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -29,6 +31,7 @@
     url('../fonts/FuturaPT-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 $fontFuturaLight: 'Futura PT Light';
@@ -429,13 +432,13 @@ body {
             margin: 0 auto;
             display: none;
             text-align: center;
-            &#ostrivna #label-q2_1 {
+            &#ostrivna .label-q2_1 {
                 margin: 0 90px 0 auto;
                 @include mediaw(400px) {
                     margin: 0 65px 0 auto;
                 }
             }
-            &#kutova #label-q2_1 {
+            &#kutova .label-q2_1 {
                 margin: 0 90px 0 auto;
                 @include mediaw(400px) {
                     margin: 0 65px 0 auto;
@@ -481,7 +484,7 @@ body {
                 height: 25px;
                 text-align: center;
             }
-            #label-q2_1 {
+            .label-q2_1 {
                 display: block;
                 // margin-left: auto;
                 // margin-right: 50px;

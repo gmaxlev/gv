@@ -9,8 +9,8 @@
   </head>
   <body>
     <?php include_once "menu.php"; ?>
-    <section id="box100" class="galleryone">
-      <div id="box90">
+    <section class="box100 galleryone">
+      <div class="box90">
         <div class="owl-carousel owl-theme owl-feed">
           <div>
             <a href="images/g24/1.jpg" data-lightbox="g24">
@@ -73,7 +73,7 @@
             </a>
           </div>
           <div class="one">
-            <iframe src="https://www.youtube.com/embed/kcR3_WcGV6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            <iframe src="https://www.youtube.com/embed/kcR3_WcGV6Y"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
           </div>
         </div>

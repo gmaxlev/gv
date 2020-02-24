@@ -1,5 +1,12 @@
+<?php
+if (isset($_GET['id']) && $_GET['id']==7777) {
+  header('Location: /');
+  exit;
+}
+?>
+
 <!DOCTYPE html>
-<html lang="ru_UA">
+<html lang="uk">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,27 +15,28 @@
     <meta name="keywords" content="Кухні на замовлення" />
     <meta name="description" content="Кухні на замовлення Львів, Червоноград, Нововолинськ, Сокаль, розрахувати ціну по моєму проекту по фото. Виготовлення кухні під заказ, кухня фото, замір спеціаліста - сайт GV-kuhni. Кухні під розмір" />
     <?php include_once "head.php"; ?>
-  </head>
-  <body>
-    <header class="header">
+    </head><body>
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <meta itemprop="headline" content="gv-kuhni">
+      <meta itemprop="description" content="Кухні на замовлення Львів">
       <div class="header__top-row">
         <div class="container">
           <ul>
             <li>
               <a href="https://www.facebook.com/gvkuhni/">
-                <i class="fab fa-facebook">
+                <i class="pswf-facebook-squared">
                 </i>
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/gv_kuhni/">
-                <i class="fab fa-instagram">
+                <i class="pswf-instagram">
                 </i>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fab fa-youtube">
+                <i class="pswf-youtube-play">
                 </i>
               </a>
             </li>
@@ -40,7 +48,7 @@
           <a href="/" class="header__logo-block">
             <img src="./img/header-logo.png" alt="">
           </a>
-          <ul>
+          <ul itemscope itemtype="http://schema.org/SiteNavigationElement">
             <li class="active">
               <a href="/">
                 <span>Головна
@@ -79,14 +87,14 @@
         </div>
       </nav>
     </header>
-    <section id="bg100" class="lead"> 
+    <section class="bg100 lead"> 
       <figure class="video">
         <video autoplay="autoplay" loop="loop" muted="" poster="images/poster.jpg">
           <source src="/video.webm" type="video/webm">
         </video>
       </figure>
-      <div class="offer">							
-        <h1 class="flipInX wow"> Кухні 
+      <div class="offer" itemscope itemtype="http://schema.org/Offer">							
+        <h1 class="flipInX wow" itemprop="name"> Кухні 
           <span class="green mobile">під
           </span> 
           <span class="green mobile">замовлення
@@ -94,87 +102,87 @@
           <span class="green hideoffer">під замовлення
           </span>
         </h1>
-        <p>Від виробника. Без посередників
+        <p itemprop="description">Від виробника. Без посередників
         </p>
-        <a href="/form.php" class="button">Розрахувати вартість
+        <a href="/form.php" itemprop="url" class="button">Розрахувати вартість
         </a>
       </div>
     </section>
-    <section id="box100" class="future">
-      <div id="box90">
+    <section class="box100 future">
+      <div class="box90">
         <div class="left">
           <h2>Якою буде Ваша майбутня кухня?
           </h2>
         </div>
         <h5>За 10 років ми досконало вивчили, що для замовників головне. Тож наші принципи - стильно, зручно, довговічно
         </h5>
-        <div id="box2">
+        <div class="box2">
           <img src="images/f1.jpg" alt="Кухні під замовлення з правильним зонуванням">
           <div class="feature fadeInDown Down wow">
             <h4>Продумане зонування
             </h4>
             <div class="icon">
-              <img src="images/fi1.png">
+              <img src="images/fi1.png"  alt="">
             </div>
             <div class="featuretext">Досвідчений дизайнер навіть крихітну кухню зробить зручною. Спроектує зони конкретно під Ваші потреби, компактно розмістить посудомийку та іншу техніку.
             </div>
           </div>
         </div>
-        <div id="box2">
+        <div class="box2">
           <img src="images/f2.jpg" alt="Кухні під замовлення з якісною Фурнітурою">
           <div class="feature fadeInDown Down wow">
             <h4>Найсучасніша фурнітура
             </h4>
             <div class="icon">
-              <img src="images/fi2.png">
+              <img src="images/fi2.png"  alt="">
             </div>
             <div class="featuretext">Штовхнувши дверцята пальцем, почути тільки як вони тихо автоматично зачиняються... Відкрити шухляду легким натиском стегна, якщо руки забруднені... Це не мрія - це Ваша кухня!
             </div>
           </div>
         </div>
-        <div id="box2">
+        <div class="box2">
           <img src="images/f3.jpg" alt="Кухні під замовлення з якісним корпусом">
           <div class="feature fadeInDown  wow">
             <h4>Якісні матеріали
             </h4>
             <div class="icon">
-              <img src="images/fi3.png">
+              <img src="images/fi3.png"  alt="">
             </div>
             <div class="featuretext">Ми використовуємо ДСП та фарби, які пройшли усі можливі інспекції. Ви можете бути впевнені, що фасади не вигорять, не розбухнуть від вологи та не отруюватимуть родину.
             </div>
           </div>
         </div>
-        <div id="box2">
+        <div class="box2">
           <img src="images/f4.jpg" alt="Кухні під замовлення з висувними системами">
           <div class="feature fadeInDown  wow">
             <h4>Зручні висувні системи
             </h4>
             <div class="icon">
-              <img src="images/fi4.png">
+              <img src="images/fi4.png"  alt="">
             </div>
             <div class="featuretext">Втомилися переривати всю кухню у пошуках потрібної крупи чи пляшки з оцтом? Більше не потрібно! Ми знаємо, як дістати усе з закритими очима.
             </div>
           </div>
         </div>
-        <div id="box2">
+        <div class="box2">
           <img src="images/f5.jpg" alt="Кухні під замовлення зі скляним фартухом">
           <div class="feature fadeInDown  wow">
             <h4>Скляний фартух
             </h4>
             <div class="icon">
-              <img src="images/fi5.png">
+              <img src="images/fi5.png"  alt="">
             </div>
             <div class="featuretext">Напевно, Ви не хочете, щоб кухня виглядала нудно. Тож за потреби ми підберемо скляний фартух або принт для фасадів - з такої кухні виходити не захочеться!
             </div>
           </div>
         </div>
-        <div id="box2">
+        <div class="box2">
           <img src="images/f6.jpg" alt="Кухні під замовлення з Led-підсвіткою">
           <div class="feature fadeInDown  wow">
             <h4>LED-підсвітка
             </h4>
             <div class="icon">
-              <img src="images/fi6.png">
+              <img src="images/fi6.png"  alt="">
             </div>
             <div class="featuretext">Правильно освітити робоче місце не тільки критично важливо для комфортної роботи та Ваших очей. Це ще й неймовірно гарно, згодні? :)
             </div>
@@ -182,11 +190,11 @@
         </div>
       </div>
     </section>
-    <section id="bg100" class="benefits">
-      <div id="bl2" class="like">
+    <section class="bg100 benefits">
+      <div class="bl2 like">
       </div>
-      <div id="bl2" class="left">
-        <div id="box2" class="text fadeInRight wow">
+      <div class="bl2 left">
+        <div class="box2 text fadeInRight wow">
           <h3>А головне - вона Вам точно сподобається!
           </h3>
           Готові гарнітури пропонують хіба 8-10 варіантів кольору і найпростішу фурнітуру. 
@@ -196,10 +204,10 @@
           </p>
         </div>
       </div>
-      <div id="bl2" class="cheap hide">
+      <div class="bl2 cheap hide">
       </div>
-      <div id="bl2" class="right">
-        <div id="box2" class="text fadeInLeft wow">
+      <div class="bl2 right">
+        <div class="box2 text fadeInLeft wow">
           <h3>Самі не знаємо чому - але у нас дійсно дешевше
           </h3>
           Можемо тільки здогадуватися про причину, чому вартість кухонь від GV-kuhni на 5-10% нижча, ніж в середньому у Львові.
@@ -218,15 +226,14 @@
               </b>
             </li>
           </ul>
-          </p>
       </div>
       </div>
-    <div id="bl2" class="cheap show">
+    <div class="bl2 cheap show">
     </div>
-    <div id="bl2" class="studio">
+    <div class="bl2 studio">
     </div>
-    <div id="bl2">
-      <div id="box2" class="text fadeInRight wow">
+    <div class="bl2">
+      <div class="box2 text fadeInRight wow">
         <h3>Хотіли кухню-студію? Це наша спеціалізація!
         </h3>
         Було би прикро, якщо б меблі не пасували до тільки-но встановленої кухні. Та кухні - лише один з напрямів нашої діяльності.
@@ -237,11 +244,11 @@
       </div>
     </div>
     </section>
-  <section id="box100" class="discount">
-    <div id="box90">
-      <h3>Сюрприз для власників квартир у новобудовах:
+  <section class="box100 discount" itemscope itemtype="http://schema.org/Offer">
+    <div class="box90">
+      <h3 itemprop="name">Сюрприз для власників квартир у новобудовах:
       </h3>
-      <h2 class="tada wow">до 
+      <h2 class="tada wow" itemprop="description">до 
         <?php echo date('t.m'); ?> замовте кухню 
         <span class="red">зі знижкою 5%!
         </span>
@@ -249,138 +256,138 @@
       Чому тільки 5%? Малі націнки - малі знижки :) На заощаджені кошти Ви зможете придбати витяжку чи навіть варочну поверхню - 
       <b>хіба вони будуть зайвими? 
       </b>
-      <a href="/form.php" class="button">Розрахувати вартість
+      <a href="/form.php" itemprop="url" class="button">Розрахувати вартість
       </a>
     </div>
   </section>
-  <section id="box100" class="gallery">
-    <div id="box90">
+  <section class="box100 gallery">
+    <div class="box90">
       <div class="left">
         <h2>Ви вже визначилися з дизайном?
         </h2>
       </div>
       <h5>Погляньте останні проекти та дайте нам знати, коли знайдете варіант, близький до Вашого ідеалу
       </h5>
-      <div class="owl-carousel owl-theme owl-objects">
-        <div> 
-          <a href="object1_lemkivska.php">
-            <div class="object" style="background: url(./images/g1/1.JPG) center; background-size: cover">
+      <div class="owl-carousel owl-theme owl-objects" itemscope itemtype="http://schema.org/ItemList">
+        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"> 
+          <a href="object1_lemkivska.php" itemprop="url">
+            <div class="object" style="background: url(./images/g1/1.jpg) center; background-size: cover">
             </div>
-            <a href="object1_lemkivska.php" class="button">Більше фото
-            </a>
+            <span class="button">Більше фото</span>
           </a>
+          <meta itemprop="position" content="0">
         </div>
-        <div>
-          <a href="object2_britain.php">
+        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="object2_britain.php" itemprop="url">
             <div class="object" style="background: url(./images/g2/1.jpg) center; background-size: cover">
             </div>
-            <a href="object2_britain.php" class="button">Більше фото
-            </a>
+            <span class="button">Більше фото</span>
           </a>
+          <meta itemprop="position" content="1">
         </div>
-        <div>
-          <a href="object3_khmelnytskyi.php">
-            <div class="object" style="background: url(./images/g3/1.JPG) center; background-size: cover">
+        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="object3_khmelnytskyi.php" itemprop="url">
+            <div class="object" style="background: url(./images/g3/1.jpg) center; background-size: cover">
             </div>
-            <a href="object3_khmelnytskyi.php" class="button">Більше фото
-            </a>
+            <span class="button">Більше фото</span>
           </a>
+          <meta itemprop="position" content="2">
         </div>
-        <div>
-          <a href="object4_kalyna.php">
-            <div class="object" style="background: url(./images/g4/1.JPG) center; background-size: cover">
+        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="object4_kalyna.php" itemprop="url">
+            <div class="object" style="background: url(./images/g4/1.jpg) center; background-size: cover">
             </div>
-            <a href="object4_kalyna.php" class="button">Більше фото
-            </a>
+            <span class="button">Більше фото</span>
           </a>
+          <meta itemprop="position" content="3">
         </div>
-        <div>
-          <a href="object5_yavor.php">
-            <div class="object" style="background: url(./images/g5/1.JPG) center; background-size: cover">
+        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="object5_yavor.php" itemprop="url">
+            <div class="object" style="background: url(./images/g5/1.jpg) center; background-size: cover">
             </div>
-            <a href="object5_yavor.php" class="button">Більше фото
-            </a>
+            <span class="button">Більше фото</span>
           </a>
+          <meta itemprop="position" content="4">
         </div>
-        <div> 
-          <a href="object6_upa.php">
-            <div class="object" style="background: url(./images/g6/1.JPG) center; background-size: cover">
+        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"> 
+          <a href="object6_upa.php" itemprop="url">
+            <div class="object" style="background: url(./images/g6/1.jpg) center; background-size: cover">
             </div>
-            <a href="object6_upa.php" class="button">Більше фото
-            </a>
+            <span class="button">Більше фото</span>
           </a>
+          <meta itemprop="position" content="5">
         </div>
-        <div>
-          <a href="object7_peremoha.php">
+        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="object7_peremoha.php" itemprop="url">
             <div class="object" style="background: url(./images/g7/1.jpg) center; background-size: cover">
             </div>
-            <a href="object7_peremoha.php" class="button">Більше фото
-            </a>
+            <span class="button">Більше фото</span>
           </a>
+          <meta itemprop="position" content="6">
         </div>
-        <div>
-          <a href="object8_sokalska.php">
-            <div class="object" style="background: url(./images/g8/1.JPG) center; background-size: cover">
+        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="object8_sokalska.php" itemprop="url">
+            <div class="object" style="background: url(./images/g8/1.jpg) center; background-size: cover">
             </div>
-            <a href="object8_sokalska.php" class="button">Більше фото
-            </a>
+            <span class="button">Більше фото</span>
           </a>
+          <meta itemprop="position" content="7">
         </div>
-        <div>
-          <a href="object9.php">
+        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="object9.php" itemprop="url">
             <div class="object" style="background: url(./images/g9/1.jpg) center; background-size: cover">
             </div>
-            <a href="object9.php" class="button">Більше фото
-            </a>
+            <span class="button">Більше фото</span>
           </a>
+          <meta itemprop="position" content="8">
         </div>
-        <div>
-          <a href="object10_sokilnyky.php">
-            <div class="object" style="background: url(./images/g10/1.JPG) center; background-size: cover">
+        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="object10_sokilnyky.php" itemprop="url">
+            <div class="object" style="background: url(./images/g10/1.jpg) center; background-size: cover">
             </div>
-            <a href="object10_sokilnyky.php" class="button">Більше фото
-            </a>
+            <span class="button">Більше фото</span>
           </a>
+          <meta itemprop="position" content="9">
         </div>
-        <div> 
-          <a href="object11_dobryachyn.php">
+        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"> 
+          <a href="object11_dobryachyn.php" itemprop="url">
             <div class="object" style="background: url(./images/g11/1.jpg) center; background-size: cover">
             </div>
-            <a href="object11_dobryachyn.php" class="button">Більше фото
-            </a>
+            <span class="button">Більше фото</span>
           </a>
+          <meta itemprop="position" content="10">
         </div>
-        <div>
-          <a href="object12_zubeiky.php">
+        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="object12_zubeiky.php" itemprop="url">
             <div class="object" style="background: url(./images/g12/1.jpg) center; background-size: cover">
             </div>
-            <a href="object12_zubeiky.php" class="button">Більше фото
-            </a>
+            <span class="button">Більше фото</span>
           </a>
+          <meta itemprop="position" content="11">
         </div>
-        <div>
-          <a href="object13_rudno.php">
+        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="object13_rudno.php" itemprop="url">
             <div class="object" style="background: url(./images/g13/1.jpg) center; background-size: cover">
             </div>
-            <a href="object13_rudno.php" class="button">Більше фото
-            </a>
+            <span class="button">Більше фото</span>
           </a>
+          <meta itemprop="position" content="12">
         </div>
-        <div>
-          <a href="object14_zhvyrka.php">
-            <div class="object" style="background: url(./images/g14/1.JPG) center; background-size: cover">
+        <div itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="object14_zhvyrka.php" itemprop="url">
+            <div class="object" style="background: url(./images/g14/1.jpg) center; background-size: cover">
             </div>
-            <a href="object14_zhvyrka.php" class="button">Більше фото
-            </a>
+            <span class="button">Більше фото</span>
           </a>
+          <meta itemprop="position" content="13">
         </div>
       </div> 
     </div> 
   </section>
-  <section id="box100" class="gift">
-    <div id="box90">
-      <div id="box2" class="text  fadeInLeft wow">
-        <h3>Дізнайтеся орієнтовну вартість кухні Вашої мрії 
+  <section class="box100 gift">
+    <div class="box90">
+      <div class="box2 text  fadeInLeft wow" itemscope itemtype="http://schema.org/Offer">
+        <h3 itemprop="name">Дізнайтеся орієнтовну вартість кухні Вашої мрії 
           <span class="red">та отримайте подарунок на вибір:
           </span>
         </h3>
@@ -392,164 +399,102 @@
           <li>комплект кухонних девайсів
           </li>
         </ul>
-        <a href="/form.php" class="button">Розрахувати вартість
+        <a href="/form.php" itemprop="url" class="button">Розрахувати вартість
         </a>
       </div>
-      <div id="box2">
-        <img src="images/gift.png">
+      <div class="box2">
+        <img src="images/gift.png" alt="">
       </div>
     </div> 
   </section>
-  <section id="box100" class="feed">
-    <div id="box90">
+  <section class="box100 feed">
+    <div class="box90">
       <div class="left">
         <h2>Чому нам довіряють?
         </h2>
       </div>
-      <h5>GV-kuhni встановили уже біля 500 кухонь, а більше 75% клієнтів приходять до нас за рекомендацією
-      </h5>
+      <h5>GV-kuhni встановили уже біля 500 кухонь, а більше 75% клієнтів приходять до нас за рекомендацією</h5>
       <div class="owl-carousel owl-theme owl-feed">
-        <div> 
-          <div id="box2c" style="background: url(./images/g1/1.JPG) center; background-size: cover">
-          </div>
+
+
+        <div itemscope itemtype="http://schema.org/Review"> 
+          <meta itemprop="name" content="Отзыв о нас">
+          <div class="box2c" style="background: url(./images/g1/1.jpg) center; background-size: cover"></div>
+          
           <div class="feature">
-            <h4>п. Тетяна, Львів
-            </h4>
-            <div class="featuretext">«Дякую Вам за гарну кухню і решту меблів. Хороші підказки дизайнера, акуратна робота монтажників, стислі строки виконання.
-              <p>За комплексне замовлення, надали гарну знижку))) Нам усе сподобалось. Рекомендую!»
-              </p>
-            </div>
+
+            <h4>п. 
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Тетяна</span></span>
+              , Львів</h4>
+            
+            <div class="featuretext" itemprop="reviewBody">«Дякую Вам за гарну кухню і решту меблів. Хороші підказки дизайнера, акуратна робота монтажників, стислі строки виконання. <br><br>За комплексне замовлення, надали гарну знижку))) Нам усе сподобалось. Рекомендую!»</div>
+
           </div>
+          <meta itemprop="itemreviewed" content="Отзыв о нас"/>
         </div>
-        <div> 
-          <div id="box2c" style="background: url(./images/g6/1.JPG) center; background-size: cover">
-          </div>
+
+
+
+        <div itemscope itemtype="http://schema.org/Review"> 
+          <meta itemprop="name" content="Отзыв о нас">
+          <div class="box2c" style="background: url(./images/g1/1.jpg) center; background-size: cover"></div>
+          
           <div class="feature">
-            <h4>п. Сергій, Сокаль
-            </h4>
-            <div class="featuretext">«Перешукали багато підрядників і зупинились на даній компанії GV.
-              <p>Дійсно приємні ціни і хороша якість. З перших слів зрозуміло, що люди знаються в своїй справі. У нас був складний проект, який гарно
-                втілили в життя. Однозначно буду звертатись в майбутньому. Очікую на знижку для постійних клієнтів))»
-              </p>
-            </div>
+          
+            <h4>п. 
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Сергій</span></span>
+              , Сокаль</h4>
+            
+            <div class="featuretext" itemprop="reviewBody">«Перешукали багато підрядників і зупинились на даній компанії GV. <br><br>Дійсно приємні ціни і хороша якість. З перших слів зрозуміло, що люди знаються в своїй справі. У нас був складний проект, який гарно втілили в життя. Однозначно буду звертатись в майбутньому. Очікую на знижку для постійних клієнтів))»</div>
+
           </div>
+          <meta itemprop="itemreviewed" content="Отзыв о нас"/>
         </div>
-        <div> 
-          <div id="box2c" style="background: url(./images/g2/1.jpg) center; background-size: cover">
-          </div>
+
+
+        <div itemscope itemtype="http://schema.org/Review"> 
+          <meta itemprop="name" content="Отзыв о нас">
+          <div class="box2c" style="background: url(./images/g1/1.jpg) center; background-size: cover"></div>
+          
           <div class="feature">
-            <h4>п. Катерина, Львів
-            </h4>
-            <div class="featuretext">«Дякую хлопцям за гарну роботу!!! Зверталась за рекомендацією
-              друзів і залишилась задоволена. Втілили мрію в реальність. Ідеальне
-              співвідношення ціни і якості. Так тримати!!»
-              </p>
+          
+            <h4>п. 
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Катерина</span></span>
+              , Львів</h4>
+            
+            <div class="featuretext" itemprop="reviewBody">«Дякую хлопцям за гарну роботу!!! Зверталась за рекомендацією друзів і залишилась задоволена. Втілили мрію в реальність. Ідеальне співвідношення ціни і якості. Так тримати!!»</div>
+            <meta itemprop="itemreviewed" content="Отзыв о нас"/>
           </div>
+
         </div>
+
+        
       </div>
     </div> 
   </section>
-  <section id="bg100" class="materials">
-    <div id="box90">
-      <div id="box2" class="text fadeInLeft wow">
+  <section class="bg100 materials">
+    <div class="box90">
+      <div class="box2 text fadeInLeft wow">
         <h3>Усе ще багато запитань?
         </h3>
         Ми підготували для Вас багато корисної інформації, яка допоможе визначитися з вибором фасадів та стільниці. 
         <a href="/materials.php" class="button">Обрати матеріали
         </a>
       </div>
-      <div id="box2">
+      <div class="box2">
         <img src="images/materials.png" alt="Кухня під замовлення у Львові">
       </div>
     </div> 
   </section>
-  <section id="box100" class="ps">
-    <div id="box90">
+  <section class="box100 ps">
+    <div class="box90">
       <div class="left">
         <h2>Завітайте до наших шоу-румів
         </h2>
       </div>
       <h5>Ми пояснимо відмінності між матеріалами, продемонструємо різні типи фурнітури та відповімо на усі питання
       </h5>
-      <div id="box2">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.4698006687595!2d24.053454315707757!3d49.796034779390375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae86d5438c133%3A0x3498dd280fae3352!2z0L_RgNC-0YHQv9C10LrRgiDQp9C10YDQstC-0L3QvtGXINCa0LDQu9C40L3QuCwgNzcsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1suk!2sua!4v1557507577048!5m2!1suk!2sua" frameborder="0" allowfullscreen>
-        </iframe>
-        <div class="feature fadeInDown wow">
-          <h4>м. Львів
-          </h4>
-          <div class="featuretext">пр-т Червоної Калини, 77 "Світ меблів"
-            <p>
-              <a href="tel:+380671773913">
-                <i class="fas fa-phone red">
-                </i> +38 067 177 3913
-              </a>
-              <br>
-              <a href="tel:+380976026006">
-                <i class="fas fa-phone red">
-                </i>  +38 097 602 6006 
-              </a>
-            </p>
-            <a href="#" class="popup-call">Домовитися про час
-            </a>
-          </div>
-        </div>
-      </div>
-      <div id="box2">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.1767720164444!2d24.232524615894686!3d50.4005430988405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4724ded9defd1209%3A0x53b13eb5fef719fe!2z0LLRg9C70LjRhtGPINCh0L7QutCw0LvRjNGB0YzQutCwLCAxMCwg0KfQtdGA0LLQvtC90L7Qs9GA0LDQtCwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA4MDEwMA!5e0!3m2!1suk!2sua!4v1557507674406!5m2!1suk!2sua" frameborder="0" allowfullscreen>
-        </iframe>
-        <div class="feature fadeInDown wow">
-          <h4>м. Червоноград
-          </h4>
-          <div class="featuretext">вул. Сокальська 10, "Світ меблів"
-            <p>
-              <a href="tel:+380634321063">
-                <i class="fas fa-phone red">
-                </i> +38 063 432 1063
-              </a>
-            </p>
-            <a href="#" class="popup-call">Домовитися про час
-            </a>
-          </div>
-        </div>
-      </div>
-      <div id="box2">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.565227367454!2d24.157435715903734!3d50.72800467520746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4724f3c6f104be6f%3A0x498747a173bc07b8!2z0LHRg9C70YzQstCw0YAg0KjQtdCy0YfQtdC90LrQsCwgMjEsINCd0L7QstC-0LLQvtC70LjQvdGB0YzQuiwg0JLQvtC70LjQvdGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA0NTQwMA!5e0!3m2!1suk!2sua!4v1557507793057!5m2!1suk!2sua"
-                frameborder="0" allowfullscreen>
-        </iframe>
-        <div class="feature fadeInDown wow">
-          <h4>м. Нововолинськ
-          </h4>
-          <div class="featuretext">бул. Шевченка, 21
-            <p>
-              <a href="tel:+380931707910">
-                <i class="fas fa-phone red">
-                </i> +38 093 170 7910
-              </a>
-            </p>
-            <a href="#" class="popup-call">Домовитися про час
-            </a>
-          </div>
-        </div>
-      </div>
-      <div id="box2">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10160.776941440832!2d24.255528063196053!3d50.45610763379368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4724de1657162bb7%3A0xff61dea8b2077b8e!2z0KLQt9Ce0JIg0JvQtdGC0YDQvg!5e0!3m2!1suk!2sua!4v1557507902860!5m2!1suk!2sua"
-                frameborder="0" allowfullscreen>
-        </iframe>
-        <div class="feature fadeInDown wow">
-          <h4>смт. Жвирка
-          </h4>
-          <div class="featuretext">вул. 1-го Травня, 1
-            <p>
-              <a href="tel:+380937373303">
-                <i class="fas fa-phone red">
-                </i> +38 093 737 3303
-              </a>
-            </p>
-            <a href="#" class="popup-call">Домовитися про час
-            </a>
-          </div>
-        </div>
-      </div>
+      <div class="mapForJs"></div>
     </div>
   </section>
   <div class="contacts-modal modal__overlay">
@@ -568,7 +513,7 @@
       </form>
     </div>
   </div>
-  <section id="box100" class="ps">
+  <section class="box100 ps">
     <div style="max-width: 1200px;margin: 0 auto;text-align: left;padding: 0 0 30px 0 ">
       <p>
         <span>
@@ -638,8 +583,30 @@
         <span>Якщо ви обираєте кухні на замовлення фото може не до кінця розказати Вам про ті чи інші деталі, тому все ж радимо прийти до нас в магазин у Львові, Червонограді, Нововолинську чи Жвирці, аби побачити все “наживо”, доторкнутися до майбутньої кухні, відчути як працюють механізми та точно зрозуміти для себе, що потрібно. Чекаємо на вас.
         </span>
       </p>
-      </section>
-    </div>
+      </div>
+    </section>
   <?php include_once "footer.php"; ?>    
+  <script>
+    $(document).ready(function () {
+        var htmlMaps =
+            '<div class="box2"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.4698006687595!2d24.053454315707757!3d49.796034779390375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae86d5438c133%3A0x3498dd280fae3352!2z0L_RgNC-0YHQv9C10LrRgiDQp9C10YDQstC-0L3QvtGXINCa0LDQu9C40L3QuCwgNzcsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1suk!2sua!4v1557507577048!5m2!1suk!2sua" allowfullscreen> </iframe> <div class="feature fadeInDown wow"> <h4>м. Львів </h4> <div class="featuretext">пр-т Червоної Калини, 77 "Світ меблів" <p> <a href="tel:+380671773913"> <i class="pswf-phone"> </i> +38 067 177 3913 </a> <br> <a href="tel:+380976026006"> <i class="pswf-phone"> </i> +38 097 602 6006 </a> </p> <a href="#" class="popup-call">Домовитися про час </a> </div> </div> </div> <div class="box2"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.1767720164444!2d24.232524615894686!3d50.4005430988405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4724ded9defd1209%3A0x53b13eb5fef719fe!2z0LLRg9C70LjRhtGPINCh0L7QutCw0LvRjNGB0YzQutCwLCAxMCwg0KfQtdGA0LLQvtC90L7Qs9GA0LDQtCwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA4MDEwMA!5e0!3m2!1suk!2sua!4v1557507674406!5m2!1suk!2sua" allowfullscreen> </iframe> <div class="feature fadeInDown wow"> <h4>м. Червоноград </h4> <div class="featuretext">вул. Сокальська 10, "Світ меблів" <p> <a href="tel:+380634321063"> <i class="pswf-phone"> </i> +38 063 432 1063 </a> </p> <a href="#" class="popup-call">Домовитися про час </a> </div> </div> </div> <div class="box2"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.565227367454!2d24.157435715903734!3d50.72800467520746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4724f3c6f104be6f%3A0x498747a173bc07b8!2z0LHRg9C70YzQstCw0YAg0KjQtdCy0YfQtdC90LrQsCwgMjEsINCd0L7QstC-0LLQvtC70LjQvdGB0YzQuiwg0JLQvtC70LjQvdGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA0NTQwMA!5e0!3m2!1suk!2sua!4v1557507793057!5m2!1suk!2sua" allowfullscreen> </iframe> <div class="feature fadeInDown wow"> <h4>м. Нововолинськ </h4> <div class="featuretext">бул. Шевченка, 21 <p> <a href="tel:+380931707910"> <i class="pswf-phone"> </i> +38 093 170 7910 </a> </p> <a href="#" class="popup-call">Домовитися про час </a> </div> </div> </div> <div class="box2"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10160.776941440832!2d24.255528063196053!3d50.45610763379368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4724de1657162bb7%3A0xff61dea8b2077b8e!2z0KLQt9Ce0JIg0JvQtdGC0YDQvg!5e0!3m2!1suk!2sua!4v1557507902860!5m2!1suk!2sua" allowfullscreen> </iframe> <div class="feature fadeInDown wow"> <h4>смт. Жвирка </h4> <div class="featuretext">вул. 1-го Травня, 1 <p> <a href="tel:+380937373303"> <i class="pswf-phone"> </i> +38 093 737 3303 </a> </p> <a href="#" class="popup-call">Домовитися про час </a> </div> </div> </div>';
+        $(window).bind("scroll", function () {
+            var scrollPosition = $(window).scrollTop();
+            var block = $(".mapForJs");
+            var crdBlock = block.offset().top;
+            if (scrollPosition > crdBlock - 500) {
+                block.html(htmlMaps);
+                $(this).unbind();
+                $(".popup-call").on("click", function () {
+                    $(".contacts-modal")
+                        .css("display", "flex")
+                        .hide()
+                        .fadeIn();
+                    $("body").addClass("overflow-active");
+                });
+            }
+        });
+    });
+  </script>
   </body>
 </html>

@@ -9,30 +9,30 @@
   </head>
   <body>
     <?php include_once "menu.php"; ?>
-    <section id="box100" class="galleryone">
-      <div id="box90">
+    <section class="box100 galleryone">
+      <div class="box90">
         <div class="owl-carousel owl-theme owl-feed">
           <div>
-            <a href="images/g4/1.JPG" data-lightbox="g4">
-              <div class="one" style="background: url(./images/g4/1.JPG) center; background-size: cover">
+            <a href="images/g4/1.jpg" data-lightbox="g4">
+              <div class="one" style="background: url(./images/g4/1.jpg) center; background-size: cover">
               </div>
             </a>
           </div>
           <div>
-            <a href="images/g4/2.JPG" data-lightbox="g4">
-              <div class="one" style="background: url(./images/g4/2.JPG) center; background-size: cover">
+            <a href="images/g4/2.jpg" data-lightbox="g4">
+              <div class="one" style="background: url(./images/g4/2.jpg) center; background-size: cover">
               </div>
             </a>
           </div>
           <div>
-            <a href="images/g4/3.JPG" data-lightbox="g4">
-              <div class="one" style="background: url(./images/g4/3.JPG) center; background-size: cover">
+            <a href="images/g4/3.jpg" data-lightbox="g4">
+              <div class="one" style="background: url(./images/g4/3.jpg) center; background-size: cover">
               </div>
             </a>
           </div>
           <div>
-            <a href="images/g4/4.JPG" data-lightbox="g4">
-              <div class="one" style="background: url(./images/g4/4.JPG) center; background-size: cover">
+            <a href="images/g4/4.jpg" data-lightbox="g4">
+              <div class="one" style="background: url(./images/g4/4.jpg) center; background-size: cover">
               </div>
             </a>
           </div>

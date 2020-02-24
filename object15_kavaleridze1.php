@@ -9,8 +9,8 @@
   </head>
   <body>
     <?php include_once "menu.php"; ?>
-    <section id="box100" class="galleryone">
-      <div id="box90">
+    <section class="box100 galleryone">
+      <div class="box90">
         <div class="owl-carousel owl-theme owl-feed">
           <div>
             <a href="images/g15/1.jpg" data-lightbox="g15">

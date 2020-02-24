@@ -9,17 +9,17 @@
   </head>
   <body>
     <?php include_once "menu.php"; ?>
-    <section id="box100" class="galleryone">
-      <div id="box90">
+    <section class="box100 galleryone">
+      <div class="box90">
         <div class="owl-carousel owl-theme owl-feed">
           <div>
             <a href="images/g3/1.jpg" data-lightbox="g3">
-              <div class="one" style="background: url(./images/g3/1.JPG) center; background-size: cover">
+              <div class="one" style="background: url(./images/g3/1.jpg) center; background-size: cover">
               </div>
             </a>
           </div>
           <div>
-            <a href="images/g3/2.JPG" data-lightbox="g3">
+            <a href="images/g3/2.jpg" data-lightbox="g3">
               <div class="one" style="background: url(./images/g3/2.jpg) center; background-size: cover">
               </div>
             </a>

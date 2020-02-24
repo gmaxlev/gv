@@ -9,12 +9,12 @@
   </head>
   <body>
     <?php include_once "menu.php"; ?>
-    <section id="box100" class="galleryone">
-      <div id="box90">
+    <section class="box100 galleryone">
+      <div class="box90">
         <div class="owl-carousel owl-theme owl-feed">
           <div>
-            <a href="images/g14/1.JPG" data-lightbox="g14">
-              <div class="one" style="background: url(./images/g14/1.JPG) center; background-size: cover">
+            <a href="images/g14/1.jpg" data-lightbox="g14">
+              <div class="one" style="background: url(./images/g14/1.jpg) center; background-size: cover">
               </div>
             </a>
           </div>

@@ -9,8 +9,8 @@
   </head>
   <body>
     <?php include_once "menu.php"; ?>
-    <section id="box100" class="galleryone">
-      <div id="box90">
+    <section class="box100 galleryone">
+      <div class="box90">
         <div class="owl-carousel owl-theme owl-feed">
           <div>
             <a href="images/g22/1.jpg" data-lightbox="g22">
@@ -37,8 +37,8 @@
             </a>
           </div>
           <div>
-            <a href="images/g22/5.JPG" data-lightbox="g22">
-              <div class="one" style="background: url(./images/g22/5.JPG) center; background-size: cover">
+            <a href="images/g22/5.jpg" data-lightbox="g22">
+              <div class="one" style="background: url(./images/g22/5.jpg) center; background-size: cover">
               </div>
             </a>
           </div>

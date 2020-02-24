@@ -1,3 +1,55 @@
+<script type='application/ld+json'> 
+{
+  "@context": "http://www.schema.org",
+  "@type": "Organization",
+  "name": "GV-kuhni - Кухні на замовлення",
+  "url": "https://gv-kuhni.com.ua",
+  "logo": "https://gv-kuhni.com.ua/img/header-logo.png",
+  "description": "Кухні на замовлення Львів, Червоноград, Нововолинськ, Сокаль, розрахувати ціну по моєму проекту по фото. Виготовлення кухні під заказ, кухня фото, замір спеціаліста - сайт GV-kuhni. Кухні під розмір",
+  "address":
+  [
+    {
+      "@type": "PostalAddress",
+      "addressLocality": "Львів",
+      "addressRegion": "Ukraine",
+      "streetAddress": "пр-т Червоної Калини, 77 'Світ меблів'",
+      "telephone":  [
+        "+380671773913",
+        "+380976026006"
+      ]
+    },
+    {
+      "@type": "PostalAddress",
+      "addressLocality": "Червоноград",
+      "addressRegion": "Ukraine",
+      "streetAddress": "вул. Сокальська 10, 'Світ меблів'",
+      "telephone": "+380634321063"
+    },
+    {
+      "@type": "PostalAddress",
+      "addressLocality": "Нововолинськ",
+      "addressRegion": "Ukraine",
+      "streetAddress": "бул. Шевченка, 21",
+      "telephone": "+380931707910"
+    },
+    {
+      "@type": "PostalAddress",
+      "addressLocality": "Жвирка",
+      "addressRegion": "Ukraine",
+      "streetAddress": "вул. 1-го Травня, 1",
+      "telephone":  "+380937373303"
+    }
+  ],
+  "telephone": [
+    "+380671773913",
+    "+380976026006",
+    "+380634321063",
+    "+380931707910",
+    "+380937373303"
+  ]
+}
+ </script>
+
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){
     w[l]=w[l]||[];
@@ -20,10 +72,8 @@
 <link rel="stylesheet" href="./css/form/style.css">
 <link rel="stylesheet" href="./css/style.css">
 <link href="css/lightbox.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 <link rel="icon" href="/favicon.ico">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link rel="stylesheet" href="/css/animate.min.css">
 <meta name="format-detection" content="telephone=no">
 <script>
   (function(i,s,o,g,r,a,m){
@@ -43,7 +93,7 @@
   setTimeout("ga('send','event','Engaged users','More than 15 seconds')",15000);
 </script>
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
+<!-- <script  >
   (function(m,e,t,r,i,k,a){
     m[i]=m[i]||function(){
       (m[i].a=m[i].a||[]).push(arguments)};
@@ -58,12 +108,12 @@
     webvisor:true
   }
     );
-</script>
-<noscript>
+</script> -->
+<!-- <noscript>
   <div>
     <img src="https://mc.yandex.ru/watch/53681557" style="position:absolute; left:-9999px;" alt="" />
   </div>
-</noscript>
+</noscript> -->
 <!-- /Yandex.Metrika counter -->
 <!-- Facebook Pixel Code -->
 <script>
@@ -94,9 +144,9 @@
        />
 </noscript>
 <!-- End Facebook Pixel Code -->
-<script type="text/javascript">
+<script >
   {
-    if (screen.width > 800) document.write ('<script type="text/javascript" src="/animated/js/wow.min.js" ></sc' + 'ript>');
+    if (screen.width > 800) document.write ('<script  src="/animated/js/wow.min.js" ></sc' + 'ript>');
   }
 </script>
 <script>new WOW().init();

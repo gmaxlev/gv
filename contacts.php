@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru_UA">
+<html lang="uk">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,19 +16,19 @@
           <ul>
             <li>
               <a href="https://www.facebook.com/GV-Mebel-434729903988714/">
-                <i class="fab fa-facebook">
+                <i class="pswf-facebook-squared">
                 </i>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fab fa-instagram">
+                <i class="pswf-instagram">
                 </i>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fab fa-youtube">
+                <i class="pswf-youtube-play">
                 </i>
               </a>
             </li>
@@ -79,16 +79,16 @@
         </div>
       </nav>
     </header>
-    <section id="box100" class="ps contactspage">
-      <div id="box90">
+    <section class="box100 ps contactspage">
+      <div class="box90">
         <div class="left">
           <h2>Завітайте до наших шоу-румів
           </h2>
         </div>
         <h5>Ми пояснимо відмінності між матеріалами, продемонструємо різні типи фурнітури та відповімо на усі питання
         </h5>
-        <div id="box2">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.4698006687595!2d24.053454315707757!3d49.796034779390375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae86d5438c133%3A0x3498dd280fae3352!2z0L_RgNC-0YHQv9C10LrRgiDQp9C10YDQstC-0L3QvtGXINCa0LDQu9C40L3QuCwgNzcsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1suk!2sua!4v1557507577048!5m2!1suk!2sua" frameborder="0" allowfullscreen>
+        <div class="box2">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.4698006687595!2d24.053454315707757!3d49.796034779390375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae86d5438c133%3A0x3498dd280fae3352!2z0L_RgNC-0YHQv9C10LrRgiDQp9C10YDQstC-0L3QvtGXINCa0LDQu9C40L3QuCwgNzcsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1suk!2sua!4v1557507577048!5m2!1suk!2sua"  allowfullscreen>
           </iframe>
           <div class="feature fadeInDown wow">
             <h4>м. Львів
@@ -96,12 +96,12 @@
             <div class="featuretext">пр-т Червоної Калини, 77 "Світ меблів"
               <p>
                 <a href="tel:+380671773913">
-                  <i class="fas fa-phone red">
+                  <i class="pswf-phone">
                   </i> +38 067 177 3913
                 </a>
                 <br>
                 <a href="tel:+380976026006">
-                  <i class="fas fa-phone red">
+                  <i class="pswf-phone">
                   </i>  +38 097 602 6006 
                 </a>
               </p>
@@ -110,8 +110,8 @@
             </div>
           </div>
         </div>
-        <div id="box2">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.1767720164444!2d24.232524615894686!3d50.4005430988405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4724ded9defd1209%3A0x53b13eb5fef719fe!2z0LLRg9C70LjRhtGPINCh0L7QutCw0LvRjNGB0YzQutCwLCAxMCwg0KfQtdGA0LLQvtC90L7Qs9GA0LDQtCwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA4MDEwMA!5e0!3m2!1suk!2sua!4v1557507674406!5m2!1suk!2sua" frameborder="0" allowfullscreen>
+        <div class="box2">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.1767720164444!2d24.232524615894686!3d50.4005430988405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4724ded9defd1209%3A0x53b13eb5fef719fe!2z0LLRg9C70LjRhtGPINCh0L7QutCw0LvRjNGB0YzQutCwLCAxMCwg0KfQtdGA0LLQvtC90L7Qs9GA0LDQtCwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA4MDEwMA!5e0!3m2!1suk!2sua!4v1557507674406!5m2!1suk!2sua"  allowfullscreen>
           </iframe>
           <div class="feature fadeInDown wow">
             <h4>м. Червоноград
@@ -119,7 +119,7 @@
             <div class="featuretext">вул. Сокальська 10, "Світ меблів"
               <p>
                 <a href="tel:+380634321063">
-                  <i class="fas fa-phone red">
+                  <i class="pswf-phone">
                   </i> +38 063 432 1063
                 </a>
               </p>
@@ -128,9 +128,9 @@
             </div>
           </div>
         </div>
-        <div id="box2">
+        <div class="box2">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.565227367454!2d24.157435715903734!3d50.72800467520746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4724f3c6f104be6f%3A0x498747a173bc07b8!2z0LHRg9C70YzQstCw0YAg0KjQtdCy0YfQtdC90LrQsCwgMjEsINCd0L7QstC-0LLQvtC70LjQvdGB0YzQuiwg0JLQvtC70LjQvdGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA0NTQwMA!5e0!3m2!1suk!2sua!4v1557507793057!5m2!1suk!2sua"
-                  frameborder="0" allowfullscreen>
+                   allowfullscreen>
           </iframe>
           <div class="feature fadeInDown wow">
             <h4>м. Нововолинськ
@@ -138,7 +138,7 @@
             <div class="featuretext">бул. Шевченка, 21
               <p>
                 <a href="tel:+380931707910">
-                  <i class="fas fa-phone red">
+                  <i class="pswf-phone">
                   </i> +38 093 170 7910
                 </a>
               </p>
@@ -147,9 +147,9 @@
             </div>
           </div>
         </div>
-        <div id="box2">
+        <div class="box2">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10160.776941440832!2d24.255528063196053!3d50.45610763379368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4724de1657162bb7%3A0xff61dea8b2077b8e!2z0KLQt9Ce0JIg0JvQtdGC0YDQvg!5e0!3m2!1suk!2sua!4v1557507902860!5m2!1suk!2sua"
-                  frameborder="0" allowfullscreen>
+                   allowfullscreen>
           </iframe>
           <div class="feature fadeInDown wow">
             <h4>смт. Жвирка
@@ -157,7 +157,7 @@
             <div class="featuretext">вул. 1-го Травня, 1
               <p>
                 <a href="tel:+380937373303">
-                  <i class="fas fa-phone red">
+                  <i class="pswf-phone">
                   </i> +38 093 737 3303
                 </a>
               </p>

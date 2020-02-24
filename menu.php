@@ -4,19 +4,19 @@
       <ul>
         <li>
           <a href="https://www.facebook.com/gvkuhni/">
-            <i class="fab fa-facebook">
+            <i class="pswf-facebook-squared">
             </i>
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/gv_kuhni/">
-            <i class="fab fa-instagram">
+            <i class="pswf-instagram">
             </i>
           </a>
         </li>
         <li>
           <a href="#">
-            <i class="fab fa-youtube">
+            <i class="pswf-youtube-play">
             </i>
           </a>
         </li>

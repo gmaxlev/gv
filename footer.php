@@ -1,47 +1,47 @@
 <footer class="footer">
-  <div id="box90">
-    <div id="box3" class="contacts">
+  <div class="box90">
+    <div class="box3 contacts">
       <b>м. Львів
       </b>
       <br>пр-т Червоної Калини, 77 "Світ меблів"
       <br>
       <a href="tel:+380671773913">
-        <i class="fas fa-phone red">
+        <i class="pswf-phone">
         </i> +38 067 177 3913
       </a>
       <br>
       <a href="tel:+380976026006">
-        <i class="fas fa-phone red">
+        <i class="pswf-phone">
         </i>  +38 097 602 6006
       </a>
     </div>
-    <div id="box3" class="contacts">
+    <div class="box3 contacts">
       <b>м. Червоноград
       </b>
       <br>вул. Сокальська 10, "Світ меблів"
       <br>
       <a href="tel:+380634321063">
-        <i class="fas fa-phone red">
+        <i class="pswf-phone">
         </i> +38 063 432 1063
       </a>
     </div>
-    <div id="box3" class="contacts">
+    <div  class="box3 contacts">
       <b>м. Нововолинськ
       </b>
       <br>бул. Шевченка, 21
       <br>
       <a href="tel:+380931707910">
-        <i class="fas fa-phone red">
+        <i class="pswf-phone">
         </i> +38 093 170 7910
       </a>
     </div>
-    <div id="box3" class="contacts">
+    <div class="box3 contacts">
       <b>смт. Жвирка
       </b>
       <br>вул. 1-го Травня, 1
       <br>
       <a href="tel:+380937373303">
-        <i class="fas fa-phone red">
+        <i class="pswf-phone">
         </i> +38 093 737 3303
       </a>
     </div>
@@ -54,18 +54,14 @@
     </div>
   </div>
 </footer>
-<script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous">
-</script>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js">
+<script src="/js/jquery-3.4.1.min.js"></script>
+<script src="/js/sweetalert.min.js">
 </script>
 <script src="./js/main.js">
 </script>
 <script src="owlcarousel/owl.carousel.min.js">
 </script>
-<script type="text/javascript">
+<script >
   jQuery(document).ready(function(){
     jQuery('.owl-objects').owlCarousel({
       mouseDrag: false,
@@ -90,7 +86,7 @@
   }
                         );
 </script>
-<script type="text/javascript">
+<script >
   jQuery(document).ready(function(){
     jQuery('.owl-feed').owlCarousel({
       mouseDrag: false,
@@ -106,7 +102,7 @@
   }
                         );
 </script>
-<script type="text/javascript">
+<script >
   jQuery(document).ready(function(){
     jQuery('.owl-materials').owlCarousel({
       mouseDrag: false,
@@ -160,7 +156,7 @@
   }
                    );
 </script>
-<script type="text/javascript">
+<script >
   (function(d, w, s) {
     var widgetHash = 'hqgu6cghglh8awea4scf', gcw = d.createElement(s);
     gcw.type = 'text/javascript';

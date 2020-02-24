@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru_UA">
+<html lang="uk">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,19 +16,19 @@
           <ul>
             <li>
               <a href="https://www.facebook.com/GV-Mebel-434729903988714/">
-                <i class="fab fa-facebook">
+                <i class="pswf-facebook-squared">
                 </i>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fab fa-instagram">
+                <i class="pswf-instagram">
                 </i>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fab fa-youtube">
+                <i class="pswf-youtube-play">
                 </i>
               </a>
             </li>
@@ -79,8 +79,8 @@
         </div>
       </nav>
     </header>
-    <section id="bg100" class="formheader"> 
-      <div id="box90">
+    <section class="bg100 formheader"> 
+      <div class="box90">
         <div class="left">
           <h2>Розрахуйте вартість кухні за 5 хвилин
           </h2>
@@ -151,7 +151,7 @@
           <div class="question__toggle-block">
             <div class="question__block">
               <div class="question__block-sizes" id="pryama">
-                <label id="label-q2_1">
+                <label class="label-q2_1">
                   <input type="text" class="q2_1" name="q2_1">
                   <span> см
                   </span>
@@ -163,7 +163,7 @@
                 </div>
               </div>
               <div class="question__block-sizes" id="kutova">
-                <label id="label-q2_1">
+                <label class="label-q2_1">
                   <input type="text" class="q2_1" name="q2_1">
                   <span> см
                   </span>
@@ -180,7 +180,7 @@
                 </div>
               </div>
               <div class="question__block-sizes" id="p-podibna">
-                <label id="label-q2_1">
+                <label class="label-q2_1">
                   <input type="text" class="q2_1" name="q2_1">
                   <span> см
                   </span>
@@ -202,7 +202,7 @@
                 </div>
               </div>
               <div class="question__block-sizes" id="ostrivna">
-                <label id="label-q2_1">
+                <label class="label-q2_1">
                   <input type="text" class="q2_1" name="q2_1">
                   <span> см
                   </span>
@@ -517,5 +517,37 @@
         </form>
       </div>
     </div>
+
+    <script>
+      $(document).ready(function() {
+        $(function() {
+            document.getElementById("ajax-contact-form").addEventListener("submit", function(a) {
+                var e = new XMLHttpRequest
+                  , s = $(this);
+                a.preventDefault(),
+                e.open("POST", "mail2.php", !0),
+                e.onreadystatechange = function() {
+                    4 == e.readyState && 200 == e.status && (s.trigger("reset"),
+                    swal("Заявка відправлена", "Скоро з вами зв’яжеться менеджер!", "success"),
+                    console.log("sended"),
+                    setTimeout(()=>{
+                        $(".swal-overlay.swal-overlay--show-modal").fadeOut(),
+                        $(".project-modal.modal__overlay").fadeOut(),
+                        $("body").removeClass("overflow-active"),
+                        console.log("closed after sending")
+                    }
+                    , 5e3))
+                }
+                ,
+                e.onerror = function() {
+                    alert("Ошибка, попробуйте еще раз")
+                }
+                ,
+                e.send(new FormData(this))
+            }, !1)
+        })
+      });
+    </script>
+
   </body>
 </html>
