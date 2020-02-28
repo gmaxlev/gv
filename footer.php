@@ -45,6 +45,43 @@
         </i> +38 093 737 3303
       </a>
     </div>
+    <nav>
+    <div class="container row">
+      <ul class="footernav">
+        <li>
+          <a href="/">
+            <span>Головна
+            </span>
+          </a>
+        </li>
+        <li class="active">
+          <a href="/gallery.php">
+            <span>Галерея
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="/materials.php">
+            <span>Про матеріали
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="/form.php">
+            <span>Розрахунок вартості
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="/contacts.php">
+            <span>Контакти
+            </span>
+          </a>
+        </li>
+      </ul>
+  
+    </div>
+  </nav>
     <div class="creditline">  
       <b>© 2019. GV-kuhni. 
       </b>Усі права захищено.
@@ -167,3 +204,20 @@
   }
   )(document, window, 'script');
 </script>
+
+<!--<script type="text/javascript">
+(function($) {
+$(function() {
+
+  $('ul.tabs__caption').each(function() {
+    $(this).find('li').each(function(i) {
+      $(this).click(function(){
+        $(this).addClass('active').siblings().removeClass('active')
+          .closest('div.tabs').find('div.tabs__content').removeClass('active').eq(i).addClass('active');
+      });
+    });
+  });
+
+})
+})($)
+</script>-->

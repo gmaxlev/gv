@@ -71,6 +71,7 @@
 <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 <link rel="stylesheet" href="./css/form/style.css">
 <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/mod.css">
 <link href="css/lightbox.css" rel="stylesheet">
 <link rel="icon" href="/favicon.ico">
 <link rel="stylesheet" href="/css/animate.min.css">

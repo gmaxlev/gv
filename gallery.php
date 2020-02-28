@@ -15,6 +15,28 @@
       <h2>Наші роботи
       </h2>
       <br>
+
+ <ul class="tabs__caption">
+    <li><a href="/modern.php">Сучасний стиль</a></li>
+    <li><a href="/provance.php">Прованс</a></li>
+    <li><a href="/classic.php">Класика</a></li></ul>
+    <div class="box4"> 
+        <a href="object27_kvitylvova.php">
+          <div class="object" style="background: url(./images/g27/p1.jpg) center; background-size: cover">
+          </div>
+          <h4>Львів, ЖК "Квіти Львова"
+          </h4>
+        </a>
+      </div>
+
+      <div class="box4"> 
+        <a href="object26_kulykiv.php">
+          <div class="object" style="background: url(./images/g26/p1.jpg) center; background-size: cover">
+          </div>
+          <h4>с. Куликів
+          </h4>
+        </a>
+      </div> 
       <div class="box4"> 
         <a href="object23_sheptytskogo.php">
           <div class="object" style="background: url(./images/g23/1.jpg) center; background-size: cover">
@@ -25,7 +47,7 @@
       </div>
       <div class="box4"> 
         <a href="object24_kravchenko.php">
-          <div class="object" style="background: url(./images/g24/1.jpg) center; background-size: cover">
+          <div class="object videoafter" style="background: url(./images/g24/1.jpg) center; background-size: cover">
           </div>
           <h4>Львів, вул. У. Кравченко
           </h4>
@@ -204,22 +226,6 @@
           <div class="object" style="background: url(./images/g11/1.jpg) center; background-size: cover">
           </div>
           <h4>с. Добрячин
-          </h4>
-        </a>
-      </div>
-      <div class="box4"> 
-        <a href="object7_peremoha.php">
-          <div class="object" style="background: url(./images/g7/1.jpg) center; background-size: cover">
-          </div>
-          <h4>Червоноград, вул. Перемоги
-          </h4>
-        </a>
-      </div>
-      <div class="box4"> 
-        <a href="object_others.php">
-          <div class="object" style="background: url(./images/others/1.jpg) center; background-size: cover">
-          </div>
-          <h4>Інші роботи
           </h4>
         </a>
       </div>

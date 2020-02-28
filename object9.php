@@ -45,9 +45,10 @@
             </p>
           </div>
         </div>
-        <a href="/gallery.php" class="button">Назад до галереї
-        </a>
-      </div> 
+        <div class="buttons"><a href="/gallery.php" class="button more small">Усі проекти</a> <a href="/form.php" class="button small">Розрахувати</a></div>
+      
+      </div>
+      <?php include_once "portfolio.php"; ?> 
     </section>
     <?php include_once "footer.php"; ?>
   </body>

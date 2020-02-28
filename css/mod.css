@@ -1,0 +1,93 @@
+.videoafter {position: relative}
+.videoafter::before {position: absolute; top: 0; right: 0; width: 150px; height: 150px; content: ""; background: url(../images/video.png)}
+.one iframe {width: 100%; height: 100%}
+.galleryone .box90 {padding-top: 120px}
+.button.small {
+    width: 180px;
+    padding: 20px 0;
+    font-size: 15px;
+}
+.button.more {
+    background: #1d3a43;
+}
+.mat {margin-top: 100px}
+.mats .button {display: inline-block; margin: 30px 2% 0}
+.footernav {display: flex; flex-wrap: wrap; margin: 20px 0 0 0;
+    justify-content: center;}
+.footernav a {color: #fff}
+.footernav li {padding: 0 10px}
+.footernav li::before {display: none}
+
+.buttons {display: flex; justify-content: center; margin-top: 250px}
+.buttons .button {margin: 0 1%}
+
+.portfolio-php.gallerypage {padding: 0; display: flex; flex-wrap:wrap; justify-content: space-between}
+.portfolio-php.gallerypage .box4 {width: 300px; padding: 10px}
+.portfolio-php.gallerypage .object {height: 220px}
+.portfolio-php.gallerypage h4 {
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.tabs {margin: 30px 0}
+.tabs__content { display: none; }
+.tabs__content.active {    display: block}
+.tabs__caption {margin: 0 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.tabs__caption li {
+    padding: 15px;
+    text-align: center;
+    margin: 5px 1%;
+    font-size: 20px;
+}
+.tabs__caption li::before {display: none}
+.tabs__caption li:not(.active) {	cursor: pointer;}
+.tabs__caption li:not(.active):hover {	background: #1d3a43;	color: #fff;}
+.tabs__caption .active {
+    color: #fff;
+    background: #1d3a43;
+    font-weight: 500;
+}
+.tabs__caption a {color: #1d3a43; font-weight: 500}
+.tabs__caption a:hover {color: #fff; font-weight: 500}
+
+
+@media screen and (max-width: 1500px){
+.owl-carousel .owl-nav button.owl-prev {
+    left: 150px;}
+    .owl-carousel .owl-nav button.owl-next {
+        right: 150px;}
+
+        .galleryone .owl-nav button.owl-next {
+            bottom: -70px;
+            left: 80px;
+        }
+        .galleryone .owl-nav button.owl-prev {
+            bottom: -70px;
+            left: 10px;
+        }
+}
+
+
+@media only screen and (max-width: 600px){
+    .button.small {
+        width: 130px;}
+        .owl-carousel .owl-nav button.owl-prev {
+            left: 10px;}
+            .owl-carousel .owl-nav button.owl-next {
+                right: 10px;}
+                .tabs__caption li {
+                    font-size: 16px;
+                }
+    }
+
+    @media only screen and (max-width: 470px){
+.featuretext {
+    padding: 110px 10px 30px 30px;}
+}

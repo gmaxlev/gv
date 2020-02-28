@@ -199,7 +199,7 @@ li::before {
   vertical-align: top;
 }
 
-.box4 {
+#box4 {
   display: inline-block;
   margin: 0 auto;
   width: 24.5%;
@@ -668,7 +668,7 @@ i.red {
   margin-bottom: 30px
 }
 
-.gallerypage .box4 {
+.gallerypage #box4 {
   position: relative;
   padding: 20px
 }
@@ -1014,7 +1014,7 @@ input[type="submit"],
 
 
 @media screen and (max-width: 1600px) {
-  .box4 {
+  #box4 {
     width: 32%
   }
 }
@@ -1064,7 +1064,7 @@ input[type="submit"],
     height: 300px
   }
 
-  .box4 {
+  #box4 {
     width: 49%
   }
 
@@ -1179,7 +1179,7 @@ input[type="submit"],
     margin: -30px auto -100px;
   }
 
-  .box4 {
+  #box4 {
     width: 100%
   }
 }

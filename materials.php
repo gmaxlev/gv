@@ -117,6 +117,7 @@
                             </li>
                         </ul>
                     </div>
+                    <a href="/materials-shpon.php" class="button more small">Детальніше</a> <a href="/form.php" class="button small">Розрахувати</a>
                 </div>
             </div>
             <div class="box2 matphoto floatleft">
@@ -183,6 +184,7 @@
                             </li>
                         </ul>
                     </div>
+                    <a href="/materials-paint.php" class="button more small">Детальніше</a> <a href="/form.php" class="button small">Розрахувати</a>
                 </div>
             </div>
             <div class="box2 matphoto">
@@ -272,6 +274,7 @@
                             </li>
                         </ul>
                     </div>
+                    <a href="/materials-plivka.php" class="button more small">Детальніше</a> <a href="/form.php" class="button small">Розрахувати</a>
                 </div>
             </div>
             <div class="box2 matphoto floatleft">
@@ -366,6 +369,7 @@
                             </li>
                         </ul>
                     </div>
+                    <a href="/materials-acryl.php" class="button more small">Детальніше</a> <a href="/form.php" class="button small">Розрахувати</a>
                 </div>
             </div>
             <div class="box2 matphoto">
@@ -424,6 +428,7 @@
                             </li>
                         </ul>
                     </div>
+                    <a href="/materials-cleaf.php" class="button more small">Детальніше</a> <a href="/form.php" class="button small">Розрахувати</a>
                 </div>
             </div>
             <div class="box2 matphoto floatleft">
@@ -484,6 +489,7 @@
                             </li>
                         </ul>
                     </div>
+                    <a href="/materials-agt.php" class="button more small">Детальніше</a> <a href="/form.php" class="button small">Розрахувати</a>
                 </div>
             </div>
             <div class="box2 matphoto">
@@ -524,6 +530,7 @@
                             </li>
                         </ul>
                     </div>
+                    <a href="/materials-niemann.php" class="button more small">Детальніше</a> <a href="/form.php" class="button small">Розрахувати</a>
                 </div>
             </div>
             <div class="box2 matphoto floatleft">
@@ -588,6 +595,7 @@
                             </li>
                         </ul>
                     </div>
+                    <a href="/materials-ldsp.php" class="button more small">Детальніше</a> <a href="/form.php" class="button small">Розрахувати</a>
                 </div>
             </div>
             <div class="box2 matphoto floatleft">
@@ -624,6 +632,7 @@
                             </li>
                         </ul>
                     </div>
+                    <a href="/materials-stone.php" class="button more small">Детальніше</a> <a href="/form.php" class="button small">Розрахувати</a>
                 </div>
             </div>
             <div class="box2 matphoto">
@@ -655,13 +664,14 @@
                         </li>
                     </ul>
                     </div>
+                    <a href="/materials-econom.php" class="button more small">Детальніше</a> <a href="/form.php" class="button small">Розрахувати</a>
                 </div>
-            </div>
+          
             <div class="box2 matphoto floatleft">
                 <a href="images/materials/econom.jpg" data-lightbox="econom">
                     <img alt="" src="images/materials/econom.jpg">
                 </a>
-            </div>
+            </div> </div>
         <div class="box90" itemscope itemtype="http://schema.org/Offer">
             <div class="box2 about">
                 <h4 class="reverse" itemprop="name">Комплектація “Стандарт” 
@@ -682,6 +692,7 @@
                         </li>
                     </ul>
                 </div>
+                <a href="/materials-standard.php" class="button more small">Детальніше</a> <a href="/form.php" class="button small">Розрахувати</a>
             </div>
             <div class="box2 matphoto">
                 <a href="images/materials/standard.jpg" data-lightbox="standard">
@@ -709,13 +720,14 @@
                         </li>
                     </ul>
                     </div>
+                    <a href="/materials-premium.php" class="button more small">Детальніше</a> <a href="/form.php" class="button small">Розрахувати</a>
                 </div>
-            </div>
+         
             <div class="box2 matphoto floatleft">
                 <a href="images/materials/premium.jpg" data-lightbox="premium">
                     <img alt="" src="images/materials/premium.jpg">
                 </a>
-            </div>
+            </div>   </div>
     </section>
     <?php include_once "footer.php"; ?>
 </body>
